@@ -1,0 +1,10 @@
+{
+  "search.exclude": {
+    "**/.nuxt": true,
+    "**/dist": true
+  },
+  "files.exclude": {
+    "**/.nuxt": true,
+    "**/dist": true
+  }
+}

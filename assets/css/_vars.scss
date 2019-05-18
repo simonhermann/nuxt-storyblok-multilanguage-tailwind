@@ -1,0 +1,26 @@
+:root {
+  // colors
+
+  --c-1: #0dd492;
+  --c-1l: #00ffaa;
+  --c-1d: #00b97c;
+
+  --c-2: #950740;
+  --c-2l: #c3073f;
+  --c-2d: #6f2232;
+
+  --c-3: #ffcb9a;
+
+  --c-light: #f1f1fd;
+  --c-dark: #1a1a1d;
+  --c-darker: #030303;
+  --c-darkest: #000;
+
+  --c-foreground: var(--c-dark);
+  --c-background: var(--c-light);
+
+  --width-sm: #{$width-sm};
+  --width-md: #{$width-md};
+  --width-lg: #{$width-lg};
+  --width-xl: #{$width-md};
+}

@@ -1,0 +1,52 @@
+/* purgecss start ignore */
+.markdown {
+  p,
+  ul,
+  ol,
+  blockquote,
+  pre {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  ul,
+  ol {
+    padding-left: 2em;
+  }
+
+  li {
+    padding-left: .5em;
+    margin-bottom: 1rem;
+  }
+
+  em {
+    background-color: #fff898;
+  }
+
+  pre,
+  code {
+    line-height: inherit;
+    font-family: monospace;
+    white-space: pre;
+    background: var(--c-darker);
+  }
+  
+  pre {
+    padding: 0.5rem;
+    display: block;
+  }
+  code {
+    display: inline-block;
+  }
+
+  blockquote {
+    font-family: inherit;
+    font-style: italic;
+    width: 75%;
+    margin: auto;
+    //quotes: '„' '“';
+    quotes: '»' '«';
+    background: rgba(255, 255, 255, 0.25);
+  }
+}
+/* purgecss end ignore */

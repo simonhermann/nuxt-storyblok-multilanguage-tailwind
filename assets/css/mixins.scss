@@ -1,0 +1,53 @@
+/*
+ * mixins for media queries
+ * using same widths as tailwind
+*/
+
+$width-sm: 576px;
+$width-md: 768px;
+$width-lg: 992px;
+$width-xl: 1200px;
+
+@mixin grid {
+  @supports (grid-area: auto) {
+    @content;
+  }
+}
+
+@mixin cf {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin reduced-motion {
+  @media screen and (prefers-reduced-motion: reduce) {
+    @content;
+  }
+}
+
+@mixin mq-sm {
+  @media (min-width: #{$width-sm}) {
+    @content;
+  }
+}
+
+@mixin mq-md {
+  @media (min-width: #{$width-md}) {
+    @content;
+  }
+}
+
+@mixin mq-lg {
+  @media (min-width: #{$width-lg}) {
+    @content;
+  }
+}
+
+@mixin mq-xl {
+  @media (min-width: #{$width-xl}) {
+    @content;
+  }
+}

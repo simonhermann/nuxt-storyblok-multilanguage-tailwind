@@ -1,0 +1,24 @@
+/* purgecss start ignore */
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.4rem;
+  line-height: 1.6;
+
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  color: var(--c-foreground);
+  background-color: var(--c-background);
+}
+
+::selection {
+  background: var(--c-2);
+  color: var(--c-light);
+}
+
+
+/* purgecss end ignore */

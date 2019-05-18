@@ -1,0 +1,8 @@
+# Netlify Redirects (delete if you don't use Netlify)
+
+# Redirect default Netlify subdomain to primary domain
+# TODO: once connected to domain
+
+# shorthand for feed
+/feed /feed.xml 301
+

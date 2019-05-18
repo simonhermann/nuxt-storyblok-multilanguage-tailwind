@@ -1,0 +1,27 @@
+// Example of advanced route transitions 
+// https://css-tricks.com/native-like-animations-for-page-transitions-on-the-web/
+// https://github.com/sdras/page-transitions-simple
+
+
+.page-enter-active,
+.page-leave-active {
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  transition-duration: 100ms;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+/* purgecss start ignore */
+// Disable Transitions and Animation for Users who perfer so
+// https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/
+@media screen and (prefers-reduced-motion: reduce), (update: slow) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+/* purgecss end ignore */
