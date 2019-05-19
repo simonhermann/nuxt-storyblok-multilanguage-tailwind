@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   line-height: 1.6;
 
   min-height: 100vh;
@@ -20,5 +20,21 @@ body {
   color: var(--c-light);
 }
 
-
 /* purgecss end ignore */
+
+// improve .container utlity class from tailwind:
+.container {
+  width: calc(100% - 2rem);
+  @include mq-sm {
+    max-width: calc(#{$width-sm} - 4rem);
+  }
+  @include mq-md {
+    max-width: calc(#{$width-md} - 4rem);
+  }
+  @include mq-lg {
+    max-width: calc(#{$width-lg} - 8rem);
+  }
+  @include mq-xl {
+    max-width: calc(#{$width-xl} - 10rem);
+  }
+}
