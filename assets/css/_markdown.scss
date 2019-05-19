@@ -9,6 +9,14 @@
     margin-bottom: 1rem;
   }
 
+  a {
+    text-decoration: underline;
+    color: blue;
+    &:hover {
+      text-decoration-style: dashed;
+    }
+  }
+
   h1,
   h2,
   h3,

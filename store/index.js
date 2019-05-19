@@ -10,9 +10,9 @@ export const mutations = {
   setSettings(state, settings) {
     state.settings = settings
   },
-  // setLanguage(state, language) {
-  //   state.language = language
-  // },
+  setLanguage(state, language) {
+    state.language = language
+  },
   setCacheVersion(state, version) {
     state.cacheVersion = version
   }

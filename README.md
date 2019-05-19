@@ -3,6 +3,7 @@
 ## Main Features
 - [Nuxt.js](https://nuxtjs.org/) - The Vue.js App framework
 - [Storyblok CMS](https://www.storyblok.com/) - Headless Component-Based CMS with a Visual Editor
+    - with [field level i18n](https://www.storyblok.com/docs/internationalization) set up
 - [Tailwind](https://tailwindcss.com/) - utility-first CSS framework
 - Multiple Languages
 - [PurgeCSS](https://github.com/Developmint/nuxt-purgecss) (CSS Tree Shaking) - Get rid of all unused CSS

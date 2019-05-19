@@ -14,10 +14,23 @@
         >
           <a>{{ navitem.name }}</a>
         </nuxt-link>
+        <li class="nav__li"><a @click="changeLanguage('de')">DE</a></li>
+        <li class="nav__li"><a @click="changeLanguage('en')">EN</a></li>
       </ul>
     </nav>
   </header>
 </template>
+
+<script>
+export default {
+  methods: {
+    changeLanguage(lang) {
+      this.$store.commit('setLanguage', lang)
+    }
+  },
+}
+</script>
+
 
 <style lang='scss' scoped>
 .TheHeader {

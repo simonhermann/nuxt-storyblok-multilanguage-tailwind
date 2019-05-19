@@ -34,7 +34,7 @@ export default {
       // Get link target, if local link, navigate with router link
       if (href && href[0] === '/') {
         event.preventDefault()
-        // redirect /index and /home to /
+        // redirect /index or /home to / (for Storyblok not being able to set RealPath of home page to '/')
         if ((href == '/home') | (href == '/index')) {
           this.$router.push('/')
         } else {
