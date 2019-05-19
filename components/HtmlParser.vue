@@ -34,8 +34,12 @@ export default {
       // Get link target, if local link, navigate with router link
       if (href && href[0] === '/') {
         event.preventDefault()
-        // TODO: redirect /index to /
-        this.$router.push(href)
+        // redirect /index and /home to /
+        if ((href == '/home') | (href == '/index')) {
+          this.$router.push('/')
+        } else {
+          this.$router.push(href)
+        }
       }
       // If Google Analytics is activated & is external link
       else if (this.$ga) {
