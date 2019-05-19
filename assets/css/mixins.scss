@@ -3,10 +3,10 @@
  * using same widths as tailwind
 */
 
-$width-sm: 576px;
+$width-sm: 640px;
 $width-md: 768px;
-$width-lg: 992px;
-$width-xl: 1200px;
+$width-lg: 1024px;
+$width-xl: 1280px;
 
 @mixin grid {
   @supports (grid-area: auto) {

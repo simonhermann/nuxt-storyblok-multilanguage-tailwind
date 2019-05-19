@@ -1,4 +1,4 @@
-# nuxt-storyblok-tailwind-multilanguage
+# nuxt-storyblok-multilanguage-tailwind
 
 ## Main Features
 - [Nuxt.js](https://nuxtjs.org/) - The Vue.js App framework
@@ -8,7 +8,7 @@
 - [PurgeCSS](https://github.com/Developmint/nuxt-purgecss) (CSS Tree Shaking) - Get rid of all unused CSS
 - [PWA](https://pwa.nuxtjs.org/)
 - Sitemap
-- RSS 
+- RSS Generation (WIP)
 
 ## Getting startet
 
