@@ -1,3 +1,5 @@
+**Not maintained anymore**
+
 # nuxt-storyblok-multilanguage-tailwind
 
 ## Main Features
