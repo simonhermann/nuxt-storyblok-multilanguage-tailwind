@@ -1,6 +1,4 @@
-**Not maintained anymore**
-
-# nuxt-storyblok-multilanguage-tailwind
+# [Not maintained anymore] nuxt-storyblok-multilanguage-tailwind
 
 ## Main Features
 - [Nuxt.js](https://nuxtjs.org/) - The Vue.js App framework
